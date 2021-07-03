@@ -19,7 +19,7 @@ Petit code bash pour mettre a jour votre système linux en une seul commande
   
   /!\ Je ne peux pas garantir le fonctionnement du script pour debian
 
-
+#pour etre sur que le script et executable(Version Debian)
 
 
 
@@ -33,19 +33,20 @@ Petit code bash pour mettre a jour votre système linux en une seul commande
 
 Pour rendre le script executable:
 
+    chmod -x script_Red-Hat.sh 
+    
+pour rendre le script executable (Version Red-Hat)
 
+    chmod -x script_Debian.sh
 
+pour rendre le script executable (Version Debian)
 
+Executer le script
 
-  chmod -x script_Red-Hat.sh 
-  chmod -x script_Debian.sh
-
-
-Executer le script:
-
-
-
-
-
-  ./script_Red-Hat.sh 
-  ./script_Debian.sh  
+    ./script_Red-Hat.sh
+    
+pour etre sur que le script et executable(Version Red-Hat)
+    
+    ./script_Debian.sh 
+    
+pour etre sur que le script et executable(Version Debian)    
