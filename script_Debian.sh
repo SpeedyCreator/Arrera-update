@@ -6,7 +6,8 @@ echo "Que voulez mettre a jour:"
 echo " 1.Update système(dnf)"
 echo " 2.Update Faltpak"
 echo " 3.Update système et Faltpak(dnf+faltpak)"
-echo " 4.Grub"
+echo " 4.Update système et Faltpak avec redemarage(dnf+faltpak+reboot)"
+echo " 5.Grub"
 echo " "
 echo "Que voulez-vous faire(1,2,3,...):"
 read reponse
@@ -26,12 +27,22 @@ then
 fi
 #___________________
 
-#Update du systeme + systeme
+#Update du systeme + flatpak
 if [ "$reponse" == "3" ]
 then
     apt-get update
     apt-get upgrade
     flatpak update
+fi
+#___________________
+
+#Update du systeme + flatpak + reboot
+if [ "$reponse" == "3" ]
+then
+    apt-get update
+    apt-get upgrade
+    flatpak update
+    reboot
 fi
 #___________________
 

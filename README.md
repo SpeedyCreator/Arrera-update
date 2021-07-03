@@ -9,6 +9,7 @@ Petit code bash pour mettre a jour votre système linux en une seul commande
     
     - dnf update
     - flatpak update
+    - reboot
     - grub2-mkconfig -o /boot/grub2/grub.cfg
     - dnf list kernel
   
@@ -25,4 +26,5 @@ Petit code bash pour mettre a jour votre système linux en une seul commande
     - apt-get update
     - apt-get upgrade
     - flatpak update
+    - reboot
     - grub2-mkconfig -o /boot/grub2/grub.cfg
