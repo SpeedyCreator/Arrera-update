@@ -37,8 +37,8 @@ Pour rendre le script executable:
 
 
 
-chmod -x script_Red-Hat.sh  #pour rendre le script executable (Version Red-Hat)
-chmod -x script_Debian.sh   #pour rendre le script executable (Version Debian)
+  chmod -x script_Red-Hat.sh 
+  chmod -x script_Debian.sh
 
 
 Executer le script:
@@ -47,5 +47,5 @@ Executer le script:
 
 
 
-./script_Red-Hat.sh #pour etre sur que le script et executable(Version Red-Hat)
-./script_Debian.sh  #pour etre sur que le script et executable(Version Debian)
+  ./script_Red-Hat.sh 
+  ./script_Debian.sh  
