@@ -1,5 +1,5 @@
 # Speed-linux-Update
-Petit code bash pour mettre a jour votre système linux (Baser sur RED-HAT pour le moment) en une seul commande
+Petit code bash pour mettre a jour votre système linux en une seul commande
 
   Commande utiliser dans le script Red-Hat :
     
@@ -14,6 +14,7 @@ Petit code bash pour mettre a jour votre système linux (Baser sur RED-HAT pour 
   
 
   Commande utiliser dans le script Debian(ubuntu,mint,pop os,...)
+  /!\ Je ne peux pas garantir le fonctionnement du script pour debian il es en cour de test
 
 
 
