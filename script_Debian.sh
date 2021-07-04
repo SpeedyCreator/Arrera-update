@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "/!\ Ce programme dois etre lancer par l'utilisateur ROOT /!\ "
-echo "Bienvenu sur le système de mise a jour centraliser pour le système Linux Fedora"
+echo "Bienvenu sur le système de mise a jour centraliser pour le système Linux Debian"
 echo "Que voulez mettre a jour:"
 echo " 1.Update système(dnf)"
 echo " 2.Update Faltpak"
