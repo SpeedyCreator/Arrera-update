@@ -3,10 +3,10 @@
 echo "/!\ Ce programme dois etre lancer par l'utilisateur ROOT /!\ "
 echo "Bienvenu sur le système de mise a jour centraliser pour le système Linux Debian"
 echo "Que voulez mettre a jour:"
-echo " 1.Update système(dnf)"
+echo " 1.Update système(apt-get)"
 echo " 2.Update Faltpak"
-echo " 3.Update système et Faltpak(dnf+faltpak)"
-echo " 4.Update système et Faltpak avec redemarage(dnf+faltpak+reboot)"
+echo " 3.Update système et Faltpak(apt-get+faltpak)"
+echo " 4.Update système et Faltpak avec redemarage(apt-get+faltpak+reboot)"
 echo " "
 echo "Que voulez-vous faire(1,2,3,...):"
 read reponse
