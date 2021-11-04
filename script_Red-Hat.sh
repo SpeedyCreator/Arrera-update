@@ -16,7 +16,7 @@ read reponse
 #Update du systeme 
 if [ "$reponse" == "1" ]
 then
-    dnf update
+    dnf update -y
 fi
 #___________________
 
@@ -30,7 +30,7 @@ fi
 #Update du systeme + flatpak
 if [ "$reponse" == "3" ]
 then
-    dnf update
+    dnf update -y
     flatpak update
 fi
 #___________________
@@ -38,7 +38,7 @@ fi
 #Update du systeme + flatpak + reboot
 if [ "$reponse" == "4" ]
 then
-    dnf update
+    dnf update -y
     flatpak update
     reboot
 fi
