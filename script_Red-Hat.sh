@@ -22,6 +22,10 @@ then
     then
     reboot
     fi
+    if ["$reponse2" == "n" ,"$reponse2" == "N" ]
+    then
+    echo "Votre distribution a ete mit a jour"
+    fi
 fi
 #___________________
 
@@ -44,6 +48,10 @@ then
     then
     reboot
     fi
+    if ["$reponse2" == "n" ,"$reponse2" == "N" ]
+    then
+    echo "Votre distribution a ete mit a jour"
+    fi
 fi
 #___________________
 
@@ -58,6 +66,10 @@ then
     if ["$reponse2" == "o" ,"$reponse2" == "O" ]
     then
     reboot
+    fi
+    if ["$reponse2" == "n" ,"$reponse2" == "N" ]
+    then
+    echo "Votre distribution a ete mit a jour"
     fi
 fi
 #___________________

@@ -7,7 +7,6 @@ Petit code bash pour mettre a jour votre système linux en une seul commande
     - flatpak update
     - reboot
     - grub2-mkconfig -o /boot/grub2/grub.cfg
-    - dnf list kernel
   
 
   Commande utiliser dans le script Debian(ubuntu,mint,pop os,...)
