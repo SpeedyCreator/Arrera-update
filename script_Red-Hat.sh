@@ -20,11 +20,11 @@ then
     read reponse2
     if ["$reponse2" == "o" ,"$reponse2" == "O" ]
     then
-    reboot
+        reboot
     fi
     if ["$reponse2" == "n" ,"$reponse2" == "N" ]
     then
-    echo "Votre distribution a ete mit a jour"
+        echo "Votre distribution a ete mit a jour"
     fi
 fi
 #___________________
@@ -46,11 +46,11 @@ then
     read reponse2
     if ["$reponse2" == "o" ,"$reponse2" == "O" ]
     then
-    reboot
+        reboot
     fi
     if ["$reponse2" == "n" ,"$reponse2" == "N" ]
     then
-    echo "Votre distribution a ete mit a jour"
+        echo "Votre distribution a ete mit a jour"
     fi
 fi
 #___________________
@@ -65,11 +65,11 @@ then
     read reponse2
     if ["$reponse2" == "o" ,"$reponse2" == "O" ]
     then
-    reboot
+        reboot
     fi
     if ["$reponse2" == "n" ,"$reponse2" == "N" ]
     then
-    echo "Votre distribution a ete mit a jour"
+        echo "Votre distribution a ete mit a jour"
     fi
 fi
 #___________________
