@@ -1,4 +1,4 @@
-# Speed-linux-Update
+# arrera update
 Petit code bash pour mettre a jour votre système linux en une seul commande
 
   Commande utiliser dans le script Red-Hat :
