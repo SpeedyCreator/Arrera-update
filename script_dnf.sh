@@ -5,10 +5,10 @@ echo " 2.Update système complet sans redemarage"
 echo " 3.Grub"
 echo " 4.Mise a jour des flatpak"
 echo "[1,2,3,4]"
-read 1
+read i
 
 #Update avec redemarage 
-if [ "$1" == "1" ]
+if [ "$i" == "1" ]
 then
     echo "Atention votre systeme vas redemare rapuyer sur entrer pour continuer ou controle c pour anuller"
     dnf update -y
@@ -17,19 +17,19 @@ then
     reboot
 fi
 #update sans redemarage
-if [ "$1" == "2" ]
+if [ "$i" == "2" ]
 then
     dnf update -y
     flatpak update
     echo "Votre systeme et a jour"
 fi
 #Update du grub
-if [ "$1" == "3" ]
+if [ "$i" == "3" ]
 then
     grub2-mkconfig -o /boot/grub2/grub.cfg
 fi
 
-if [ "$1" == "4" ]
+if [ "$i" == "4" ]
 then
     flatpak update
     echo "Vos flatpak son a jour"

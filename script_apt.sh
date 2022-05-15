@@ -4,10 +4,10 @@ echo " 1.Update système complet et redemarer"
 echo " 2.Update système complet sans redemarage"
 echo " 3.Mise a jour des flatpak"
 echo "[1,2,3]"
-read 1
+read i
 
 #Update avec redemarage 
-if [ "$1" == "1" ]
+if [ "$i" == "1" ]
 then
     echo "Atention votre systeme vas redemarer apuyer sur entrer pour continuer ou controle c pour anuller"
     apt-get update
@@ -17,7 +17,7 @@ then
     reboot
 fi
 #update sans redemarage
-if [ "$1" == "2" ]
+if [ "$i" == "2" ]
 then
     apt-get update
     apt-get upgrade -y
@@ -25,7 +25,7 @@ then
     echo "Votre systeme et a jour"
 fi
 
-if [ "$1" == "3" ]
+if [ "$i" == "3" ]
 then
     flatpak update
     echo "Vos flatpak son a jour"
